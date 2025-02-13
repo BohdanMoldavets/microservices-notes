@@ -3,6 +3,7 @@ package com.moldavets.restful_web_services.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Size;
 import lombok.*;
 
 
@@ -16,6 +17,7 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Size(min = 5, max = 255)
     private String description;
 
     @ManyToOne(fetch = FetchType.LAZY)
