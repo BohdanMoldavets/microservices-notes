@@ -1,0 +1,316 @@
+    1  git
+    2  git clone [200~
+    3  git clone https://github.com/BohdanMoldavets/dev-spring-boot.git
+    4  git clone https://github.com/BohdanMoldavets/spring-mvc-employee-crud.git
+    5  git clone https://github.com/BohdanMoldavets/SpringTelegramChannelManager.git
+    6  git checkout -b dev
+    7  ls
+    8  cd SpringTelegramChannelManager/
+    9  ls
+   10  git checkout -b dev
+   11  branch
+   12  git branch
+   13  git status
+   14  git log
+   15  git clone [200~
+   16  git clone https://github.com/BohdanMoldavets/java-notes.git
+   17  ls
+   18  cd java-notes/
+   19  ls
+   20  git status
+   21  git status
+   22  ls
+   23  ls -la
+   24  git add .
+   25  git commit -m "initial commit"
+   26  git log
+   27  git log --oneline --decorate
+   28  git log --oneline --decorate --graph
+   29  git push 
+   30  git checkout -b dev
+   31  git branch
+   32  git dsa
+   33  git log
+   34  git clone https://github.com/BohdanMoldavets/WSB-second-course-databases-final-project.git
+   35  ls
+   36  cd WSB-second-course-databases-final-project/
+   37  ls
+   38  git status
+   39  git checkout -b dev
+   40  git branch
+   41  git status
+   42  git status --dif
+   43  git status --diff
+   44  git status -diff
+   45  git status
+   46  [200~
+   47  git status
+   48  git reset --hard HEAD
+   49  git log --oneline
+   50  git branch
+   51  git checkout -b dev
+   52  git status
+   53  git add .
+   54  git status
+   55  git status
+   56  git log
+   57  git push
+   58  git push --set-upstream origin dev
+   59  git pull
+   60  git push --set-upstream origin dev
+   61  git fetch
+   62  git push --set-upstream origin dev
+   63  git push --help
+   64  git branch
+   65  git branch main
+   66  git checkout main
+   67  git clone https://github.com/BohdanMoldavets/testing-notes.git
+   68  git statys
+   69  git status
+   70  git add .
+   71  git status
+   72  git commin -m "add spring test"
+   73  git commit -m "add spring test"
+   74  git push
+   75  git log
+   76  git log
+   77  git log
+   78  git status
+   79  git branch
+   80  git status
+   81  git checkout -b dev
+   82  git clone https://github.com/BohdanMoldavets/microservices-notes.git
+   83  cd microservices-notes/
+   84  ls
+   85  git checkout -b dev
+   86  git branch
+   87  git branch
+   88  git branch
+   89  git status
+   90  git branch
+   91  git checkout -b main
+   92  docker --version
+   93  ls
+   94  docker version
+   95  docker ls
+   96  docker container ls
+   97  postgres
+   98  postgresql
+   99  postgresql --version
+  100  postgres --version
+  101  postgre --version
+  102  ls -la
+  103  psql
+  104  docker run --detach
+  105  --env POSTGRES_ROOT_PASSWORD=1234
+  106  --env POSTGRES_USER=user
+  107  --env POSTGRES_PASSWORD=1234
+  108  --env POSTGRES_DATABASE=social-media-database
+  109  --name testdb
+  110  --publish 3306:3306
+  111  postgres
+  112  docker run -d
+  113  --name testdb
+  114  -e POSTGRES_ROOT_PASSWORD=1234
+  115  -e POSTGRES_USER=user
+  116  -e POSTGRES_PASSWORD=1234
+  117  -e POSTGRES_DATABASE=social-media-database
+  118  -p 3306:3306
+  119  postgres
+  120  docker -help
+  121  docker run --help
+  122  docker run -d --name testdb -e POSTGRES_ROOT_PASSWORD=1234 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=1234 -e POSTGRES_DATABASE=social-media-database -p 3306:3306 postgres
+  123  docker 
+  124  docker container ls
+  125  docker image ls
+  126  docker ps -a
+  127  docker stop postgres
+  128  docker ps -a
+  129  docker stop 
+  130  docker ps -a
+  131  docker ps -ql
+  132  docker container ls
+  133  docker ps -a
+  134  docker ps 
+  135  docker rm testdb
+  136  docker container ls
+  137  docker container ls -la
+  138  docker image la
+  139  docker image ls
+  140  docker run -d --name testdb -e POSTGRES_ROOT_PASSWORD=1234 -e POSTGRES_PASSWORD=1234 -e POSTGRES_DATABASE=social-media-database -p 3306:3306 postgres
+  141  docker ps -a
+  142  docker container ls
+  143  docker ps -a
+  144  docker stop testdb
+  145  docker ps -a
+  146  docker container ls\
+  147  docker container ls
+  148  docker image ls
+  149  docker rm test db
+  150  docker rm testdb
+  151  docker run -d --name testdb -e POSTGRES_PASSWORD=1234 -p 3306:3306 postgres
+  152  docker stop testdb
+  153  docker rm testdb
+  154  docker run -d --name testdb -e POSTGRES_PASSWORD=1234 -p 3306:3307 postgres
+  155  docker stop testdb
+  156  docker rm testdb
+  157  docker run -d --name postgres-test -e POSTGRES_PASSWORD=1234 -e POSTGRES_DATABASE=social-media-database -p 3306:3306 postgres
+  158  docker stop postgres-test
+  159  docker rm postgres-test
+  160  docker run -d --name postgres-test -e POSTGRES_PASSWORD=1234 -e POSTGRES_ROOT_PASSWORD=1234 -e POSTGRES_USERNAME=postgres -e POSTGRES_DATABASE=social-media-database -p 3306:3306 postgres
+  161  docker stop postgres-test
+  162  docker rm postgres-test
+  163  docker run -d --name postgres-test -e POSTGRES_PASSWORD=1234 -e POSTGRES_ROOT_PASSWORD=1234 -e POSTGRES_DATABASE=social-media-database -p 5432:5432 postgres
+  164  docker stop postgres-test
+  165  docker rm postgres-test
+  166  docker run -d --name postgres-test -e POSTGRES_PASSWORD=1234 -e POSTGRES_ROOT_PASSWORD=1234 -e POSTGRES_USERNAME=postgres -e POSTGRES_DATABASE=social-media-database -p 3306:3306 postgres
+  167  pwe
+  168  pwd
+  169  ls -la
+  170  cd Users/
+  171  cd steam/
+  172  ls -la
+  173  cd IdeaProjects/
+  174  ls -la
+  175  cd microservices-notes/
+  176  ls 
+  177  cd microservices-app-example/
+  178  ls
+  179  cd config/
+  180  cat limits-service.properties 
+  181  pwd
+  182  ls
+  183  cd ..
+  184  ls
+  185  cd ..
+  186  ls
+  187  cd microservices-app-example-config/
+  188  pwd
+  189  cd ..
+  190  ls
+  191  pwd
+  192  git status
+  193  git branch
+  194  git branch -D dev
+  195  git checkout -b dev
+  196  cd ..
+  197  ls
+  198  cd `
+  199  cd
+  200  watch
+  201  cd ~
+  202  docker-machine ip
+  203  docker --version
+  204  pwd
+  205  ls
+  206  cd IdeaProjects/
+  207  ls
+  208  cd microservices-notes/
+  209  cd docker/
+  210  cd hello-world-java/
+  211  ls -la
+  212  docker --version
+  213  docker container ls
+  214  docker build --help
+  215  docker build -t moldavets/hello-world-java:v1 .
+  216  clear
+  217  docker image ls
+  218  docker image rm 3267
+  219  docker image rm posthress
+  220  docker image rm posthres
+  221  docker image rm postgres
+  222  docker image rm 326
+  223  docker run -d -p 5000:5000 moldavets/hello-world-java:v1
+  224  docker container ls
+  225  docker container stop d13
+  226  docker container ls
+  227  java -version
+  228  ls -la
+  229  cd target/
+  230  ls -la
+  231  java -jar hello-world-java-0.0.1-SNAPSHOT.jar
+  232  mvn --version
+  233  mvn
+  234  mvn -version
+  235  mvn --version
+  236  docker container
+  237  docker container ls
+  238  docker build -t moldavets/hello-world-java:v2 .
+  239  cd ..
+  240  docker build -t moldavets/hello-world-java:v2 .
+  241  docker container ls
+  242  docker build -t moldavets/hello-world-java:v2 .
+  243  docker build -t moldavets/hello-world-java:v2 .
+  244  docker build -t moldavets/hello-world-java:v2 .
+  245  docker build -t moldavets/hello-world-java:v2 .
+  246  docker build -t moldavets/hello-world-java:v2 .
+  247  docker build -t moldavets/hello-world-java:v2 .
+  248  [200~docker pull maven:3.8.6-openjdk-21
+  249  docker pull maven:3.8.6-openjdk-21
+  250  docker pull maven:3.8-openjdk-21
+  251  docker build -t moldavets/hello-world-java:v2 .
+  252  docker build -t moldavets/hello-world-java:v2 .
+  253  docker build -t moldavets/hello-world-java:v2 .
+  254  docke [200~openjdk:<version>
+  255  docke openjdk:<version>
+  256  docke openjdk:<version>-oracle
+  257  docker build -t moldavets/hello-world-java:v2 .
+  258  docker build -t moldavets/hello-world-java:v2 .
+  259  docker build -t moldavets/hello-world-java:v2 .
+  260  docker build -t moldavets/hello-world-java:v2 .
+  261  docker image ls
+  262  docker image list
+  263  docker build -t moldavets/hello-world-java:v2 .
+  264  docker image ls
+  265  docker rmi 992
+  266  docker rmi 992cdf227820
+  267  docker image ls
+  268  docker build -t moldavets/hello-world-java:v2 .
+  269  docker image ls
+  270* docker container run -d -p 5000:5000 moldavets/hello-world-java:v
+  271  docker container ;s
+  272  docker container ls
+  273  pwd
+  274  docker container ls
+  275  docker container stop 139
+  276  pwd
+  277  docker build -t moldavets/hello-world-java:v3 .
+  278  docker build -t moldavets/hello-world-java:v3 .
+  279  docker image ls
+  280  docker run -d -p 5000:5000 moldavets/hello-world-java:v3
+  281  docker container ls
+  282  docker build -t moldavet/hello-world-java:v4 .
+  283  docker container ls
+  284  docker container ls
+  285  docker container stop b50
+  286  docker container ls
+  287  docker image ls
+  288  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  289  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  290  docker container ls
+  291  docker image ls
+  292  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  293  docker build -t moldavet/hello-world-java:v4 .
+  294  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  295  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  296  docker container run -d -p 5000:5000 moldavets/hello-world-java:v4
+  297  
+  298  docker container run -d -p 5000:5000 moldavets/hello-world-java:v4
+  299  docket container run -d -p 5000:5000 moldavets/hello-world-java:v4
+  300  docker container run -d -p 5000:5000 moldavets/hello-world-java:v4
+  301  docker container run -d -p 5000:5000 moldavets/hello-world-java:v3
+  302  docker container ls
+  303  docker container stop 79e
+  304  docker image
+  305  docker image ls
+  306  docker rmi moldavets/hello-world-java:v4
+  307  docker rmi 5001f8e713cf
+  308  docker build -t moldavets/hello-world-java:v4 .
+  309  docker container run -d -p 5000:5000 moldavets/java-hello-world
+  310  docker container run -d -p 5000:5000 moldavets/java-hello-world:v4
+  311  docker image ls
+  312  docker run -d -p 5000:5000 moldavets/hello-world-java:v4
+  313  docker container ls
+  314  docker container stop 304
+  315  history
+  316  history >> docker-notes.txt
